@@ -1,4 +1,9 @@
-## Instalador e Desinstalador de Extensões do VS Code
+<div style="text-align:center;">
+    <h1 style="color:#87CEEB; font-style:italic; font-weight:bold;"><img src="logo-vscode.png" alt="VS Code Logo" height="50px"/> Instalador e Desinstalador de Extensões do Vscode <img src="logo-vscode.png" alt="VS Code Logo" height="50px"/> </h1>
+</div>
+
+
+
 
 Este repositório contém scripts de linha de comando em batch que facilitam a instalação e a remoção das extensões do Visual Studio Code. Os scripts automatizam o processo de instalação e desinstalação das extensões listadas, economizando tempo e esforço durante a configuração e manutenção do ambiente de desenvolvimento.
 
@@ -8,33 +13,40 @@ Este é um script que facilita a instalação das extensões do Visual Studio Co
 
 #### Lista de Extensões
 
-As seguintes extensões serão verificadas e instaladas:
+- **Auto Close Tag**: [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+- **Auto Complete Tag**: [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=SEU-ID-DA-EXTENSAO)
+- **Auto Rename Tag**: [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+- **Brazilian Portuguese - Code Spell Checker**: [Brazilian Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese-brazilian)
+- **Code Spell Checker**: [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+- **Code Time**: [Code Time](https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-vscode)
+- **CodeSnap**: [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
+- **Color Highlight**: [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+- **Django**: [Django](https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django)
+- **Docker**: [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+- **EditorConfig for VS Code**: [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- **Git History**: [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+- **GitHub Copilot**: [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+- **GitHub Copilot Chat**: [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
+- **GitHub Pull Requests**: [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+- **GitLens — Git supercharged**: [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- **HTML CSS Support**: [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+- **indent-rainbow**: [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+- **Live Server**: [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- **Markdown All in One**: [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+- **Material Icon Theme**: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- **Path Intellisense**: [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+- **Portuguese (Brazil) Language Pack for Visual Studio Code**: [Portuguese (Brazil) Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-pt-BR)
+- **Prettier - Code formatter**: [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- **Pylance**: [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
+- **Python**: [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- **Python Debugger**: [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
+- **Rainbow CSV**: [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+- **readme-preview**: [readme-preview](https://marketplace.visualstudio.com/items?itemName=manishsencha.readme-preview)
+- **Reaload**: [Reaload](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer)
+- **SQLite Viewer**: [SQLite Viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer)
 
-- **Python**: `ms-python.python`
-- **Pylance**: `ms-python.vscode-pylance`
-- **Prettier**: `esbenp.prettier-vscode`
-- **Material Icon Theme**: `PKief.material-icon-theme`
-- **GitHub Copilot**: `GitHub.copilot`
-- **Django**: `batisteo.vscode-django`
-- **Indent Rainbow**: `oderwat.indent-rainbow`
-- **Color Highlight**: `naumovs.color-highlight`
-- **Rainbow CSV**: `mechatroner.rainbow-csv`
-- **SQLite Viewer**: `qwtel.sqlite-viewer`
-- **Debugpy**: `ms-python.debugpy`
-- **Live Server**: `ritwickdey.LiveServer`
-- **Auto Complete Tag**: `formulahendry.auto-complete-tag`
-- **Português (Brasil) Language Pack**: `MS-CEINTL.vscode-language-pack-pt-BR`
-- **Code Spell Checker (Português Brasileiro)**: `streetsidesoftware.code-spell-checker-portuguese-brazilian`
-- **Code Spell Checker**: `streetsidesoftware.code-spell-checker`
-- **Software.com for Visual Studio Code**: `softwaredotcom.swdc-vscode`
-- **HTML CSS Support**: `ecmel.vscode-html-css`
-- **CodeSnap**: `adpyke.codesnap`
-- **readme-preview**: `manishsencha.readme-preview`
-- **GitHub Pull Requests**: `GitHub.vscode-pull-request-github`
-- **Git History**: `donjayamanne.githistory`
-- **GitLens — Git supercharged**: `eamodio.gitlens`
 
-#### Como Usar
+#### Como Usar o Instalador de Extensões
 
 1. Baixe o arquivo `install_extensions.bat` deste repositório.
 2. Execute o arquivo `install_extensions.bat` clicando duas vezes sobre ele.
@@ -45,7 +57,7 @@ As seguintes extensões serão verificadas e instaladas:
 
 Este é um script que facilita a remoção de todas as extensões instaladas no Visual Studio Code. Ele obtém a lista de extensões instaladas e remove cada uma delas automaticamente.
 
-#### Como Usar
+#### Como Usar o Desinstalador de Extensões
 
 1. Baixe o arquivo `uninstall_extensions.bat` deste repositório.
 2. Execute o arquivo `uninstall_extensions.bat` clicando duas vezes sobre ele.
@@ -54,8 +66,21 @@ Este é um script que facilita a remoção de todas as extensões instaladas no 
 
 ### Observações
 
-- Certifique-se de ter o Visual Studio Code instalado em seu sistema antes de executar os scripts.
-- As extensões serão instaladas ou removidas automaticamente, portanto, certifique-se de revisar e fazer backup das extensões importantes antes de executar os scripts.
-- Estes scripts são compatíveis com o Windows e requerem o Prompt de Comando do Windows para serem executados.
+- **Importante**: Certifique-se de ter o Visual Studio Code instalado em seu sistema antes de executar os scripts.
+- **Backup**: Antes de executar os scripts, recomendamos fazer backup das extensões importantes.
+- **Compatibilidade**: Estes scripts são compatíveis apenas com o Windows e requerem o Prompt de Comando do Windows para serem executados.
 
-Estes scripts são úteis para automatizar tarefas de instalação e desinstalação de extensões do Visual Studio Code, tornando mais fácil e rápido o processo de configuração e manutenção do ambiente de desenvolvimento.
+### Exemplos de Uso
+
+Aqui estão alguns exemplos de como usar os scripts:
+
+- Para instalar as extensões, execute o arquivo `install_extensions.bat`.
+- Para desinstalar as extensões, execute o arquivo `uninstall_extensions.bat`.
+
+### Contribuição
+
+Contribuições são bem-vindas! Se você encontrou um bug ou tem uma ideia para uma melhoria, fique à vontade para abrir uma issue ou enviar um pull request.
+
+### Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
