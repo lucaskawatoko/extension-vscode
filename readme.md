@@ -1,5 +1,5 @@
 <div style="text-align:center;">
-    <h1 style="color:#87CEEB; font-style:italic; font-weight:bold;"><img src="logo-vscode.png" alt="VS Code Logo" height="50px"/> Instalador e Desinstalador de Extensões do Vscode <img src="logo-vscode.png" alt="VS Code Logo" height="50px"/> </h1>
+    <h1 style="color:#87CEEB; font-style:italic; font-weight:bold;"><img src="logo-vscode.png" alt="VS Code Logo" height="30px"/> Instalador e Desinstalador de Extensões do Vscode <img src="logo-vscode.png" alt="VS Code Logo" height="30px"/> </h1>
 </div>
 
 
