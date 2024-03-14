@@ -90,8 +90,10 @@ Este é um script que facilita a remoção de todas as extensões instaladas no 
 
 Aqui estão alguns exemplos de como usar os scripts:
 
+### Windows
 - Para instalar as extensões, execute o arquivo `install_extensions.bat`.
 - Para desinstalar as extensões, execute o arquivo `uninstall_extensions.bat`.
+### Linux e MacOS
 - Para instalar as extensões, execute o arquivo `install_extensions.sh`.
 - Para desinstalar as extensões, execute o arquivo `uninstall_extensions.sh`.
 
