@@ -1,9 +1,7 @@
 <div style="text-align:center;">
-    <h1 style="color:#87CEEB; font-style:italic; font-weight:bold;"><img src="logo-vscode.png" alt="VS Code Logo" height="50px"/> Instalador e Desinstalador de Extensões do Vscode <img src="logo-vscode.png" alt="VS Code Logo" height="50px"/> </h1>
+    <h1 style="color:#87CEEB; font-style:italic; font-weight:bold;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" height="40" width="50"/> Instalador e Desinstalador de Extensões do Vscode <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" height="40" width="50"/> </h1>
 </div>
-
-
-
 
 Este repositório contém scripts de linha de comando em batch que facilitam a instalação e a remoção das extensões do Visual Studio Code. Os scripts automatizam o processo de instalação e desinstalação das extensões listadas, economizando tempo e esforço durante a configuração e manutenção do ambiente de desenvolvimento.
 
@@ -16,6 +14,7 @@ Este é um script que facilita a instalação das extensões do Visual Studio Co
 - **Auto Close Tag**: [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 - **Auto Complete Tag**: [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=SEU-ID-DA-EXTENSAO)
 - **Auto Rename Tag**: [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+- **Auto Pep 8**:[Auto Pep 8](https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8)
 - **Brazilian Portuguese - Code Spell Checker**: [Brazilian Portuguese - Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese-brazilian)
 - **Code Spell Checker**: [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - **Code Time**: [Code Time](https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-vscode)
@@ -45,11 +44,10 @@ Este é um script que facilita a instalação das extensões do Visual Studio Co
 - **Reaload**: [Reaload](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer)
 - **SQLite Viewer**: [SQLite Viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer)
 
-
 #### Como Usar o Instalador de Extensões
 
-1. Baixe o arquivo `install_extensions.bat` deste repositório.
-2. Execute o arquivo `install_extensions.bat` clicando duas vezes sobre ele.
+1. Baixe o arquivo `uninstall_extensions.bat` ou `unistall_extensions.sh` deste repositório.
+2. Execute o arquivo baixado clicando duas vezes sobre ele.
 3. Aguarde até que todas as extensões sejam verificadas e instaladas.
 4. Após a conclusão, você verá a mensagem "Todas as extensões foram verificadas e instaladas.".
 
@@ -59,8 +57,8 @@ Este é um script que facilita a remoção de todas as extensões instaladas no 
 
 #### Como Usar o Desinstalador de Extensões
 
-1. Baixe o arquivo `uninstall_extensions.bat` deste repositório.
-2. Execute o arquivo `uninstall_extensions.bat` clicando duas vezes sobre ele.
+1. Baixe o arquivo `uninstall_extensions.bat` ou `unistall_extensions.sh` deste repositório.
+2. Execute o arquivo baixado clicando duas vezes sobre ele.
 3. Aguarde até que todas as extensões sejam removidas.
 4. Após a conclusão, você verá a mensagem "Todas as extensões foram removidas.".
 
@@ -68,7 +66,25 @@ Este é um script que facilita a remoção de todas as extensões instaladas no 
 
 - **Importante**: Certifique-se de ter o Visual Studio Code instalado em seu sistema antes de executar os scripts.
 - **Backup**: Antes de executar os scripts, recomendamos fazer backup das extensões importantes.
-- **Compatibilidade**: Estes scripts são compatíveis apenas com o Windows e requerem o Prompt de Comando do Windows para serem executados.
+- **Atenção**: Arquivos .bat são para sistema Window e .sh são para Linux e MacOS
+
+### Compativeis com os sistemas
+<table>
+  <tr>
+    <td align="center">
+      <img alt="logo windows" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg" />
+      <p>Windows</p>
+    </td>
+    <td align="center">
+      <img alt="logo linux" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"/>
+      <p>Linux</p>
+    </td>
+    <td align="center">
+      <img alt="logo macos" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg"/>
+      <p>MacOS</p>
+    </td>
+  </tr>
+</table>
 
 ### Exemplos de Uso
 
@@ -76,6 +92,8 @@ Aqui estão alguns exemplos de como usar os scripts:
 
 - Para instalar as extensões, execute o arquivo `install_extensions.bat`.
 - Para desinstalar as extensões, execute o arquivo `uninstall_extensions.bat`.
+- Para instalar as extensões, execute o arquivo `install_extensions.sh`.
+- Para desinstalar as extensões, execute o arquivo `uninstall_extensions.sh`.
 
 ### Contribuição
 

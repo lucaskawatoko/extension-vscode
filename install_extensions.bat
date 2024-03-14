@@ -2,7 +2,7 @@
 title Instalador de Extensões do VS Code
 
 rem Lista de extensões a serem verificadas e instaladas
-set "extensions=ms-python.python ms-python.vscode-pylance esbenp.prettier-vscode PKief.material-icon-theme GitHub.copilot christian-kohler.path-intellisense batisteo.vscode-django oderwat.indent-rainbow naumovs.color-highlight mechatroner.rainbow-csv qwtel.sqlite-viewer ms-python.debugpy natqe.reload ritwickdey.LiveServer formulahendry.auto-complete-tag MS-CEINTL.vscode-language-pack-pt-BR streetsidesoftware.code-spell-checker-portuguese-brazilian streetsidesoftware.code-spell-checker softwaredotcom.swdc-vscode ecmel.vscode-html-css adpyke.codesnap yzhang.markdown-all-in-one GitHub.vscode-pull-request-github donjayamanne.githistory eamodio.gitlens ms-azuretools.vscode-docker EditorConfig.EditorConfig
+set "extensions=ms-python.python ms-python.vscode-pylance esbenp.prettier-vscode PKief.material-icon-theme GitHub.copilot christian-kohler.path-intellisense batisteo.vscode-django oderwat.indent-rainbow naumovs.color-highlight mechatroner.rainbow-csv qwtel.sqlite-viewer ms-python.debugpy natqe.reload ritwickdey.LiveServer formulahendry.auto-complete-tag MS-CEINTL.vscode-language-pack-pt-BR streetsidesoftware.code-spell-checker-portuguese-brazilian streetsidesoftware.code-spell-checker softwaredotcom.swdc-vscode ecmel.vscode-html-css adpyke.codesnap yzhang.markdown-all-in-one ms-python.autopep8 GitHub.vscode-pull-request-github donjayamanne.githistory eamodio.gitlens ms-azuretools.vscode-docker EditorConfig.EditorConfig
 natqe.reload"
 
 rem Define a quantidade total de extensões
