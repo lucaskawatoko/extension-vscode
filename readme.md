@@ -1,10 +1,7 @@
 <div style="text-align:center;">
-<<<<<<< HEAD
     <h1 style="color:#87CEEB; font-style:italic; font-weight:bold;">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" height="40" width="50"/> Instalador e Desinstalador de Extensões do Vscode <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" height="40" width="50"/> </h1>
-=======
     <h1 style="color:#87CEEB; font-style:italic; font-weight:bold;"><img src="logo-vscode.png" alt="VS Code Logo" height="30px"/> Instalador e Desinstalador de Extensões do Vscode <img src="logo-vscode.png" alt="VS Code Logo" height="30px"/> </h1>
->>>>>>> ace2ad09981332ff0a283c767998727a8ad08d46
 </div>
 
 Este repositório contém scripts de linha de comando em batch que facilitam a instalação e a remoção das extensões do Visual Studio Code. Os scripts automatizam o processo de instalação e desinstalação das extensões listadas, economizando tempo e esforço durante a configuração e manutenção do ambiente de desenvolvimento.
