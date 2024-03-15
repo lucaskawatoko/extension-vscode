@@ -1,6 +1,6 @@
 <div style="text-align:center;">
     <h1 style="color:#87CEEB; font-style:italic; font-weight:bold;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" height="40" width="50"/> Instalador e Desinstalador de Extensões do Vscode <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" height="40" width="50"/> </h1>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" height="40" width="30"/> Instalador e Desinstalador de Extensões do Vscode <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" height="40" width="30"/> </h1>
 </div>
 
 Este repositório contém scripts de linha de comando em batch que facilitam a instalação e a remoção das extensões do Visual Studio Code. Os scripts automatizam o processo de instalação e desinstalação das extensões listadas, economizando tempo e esforço durante a configuração e manutenção do ambiente de desenvolvimento.
@@ -90,10 +90,59 @@ Este é um script que facilita a remoção de todas as extensões instaladas no 
 
 Aqui estão alguns exemplos de como usar os scripts:
 
+### Windows
 - Para instalar as extensões, execute o arquivo `install_extensions.bat`.
 - Para desinstalar as extensões, execute o arquivo `uninstall_extensions.bat`.
+### Linux e MacOS
 - Para instalar as extensões, execute o arquivo `install_extensions.sh`.
 - Para desinstalar as extensões, execute o arquivo `uninstall_extensions.sh`.
+
+### Sugestões de fontes para código/terminal
+
+<ol>
+  <li>Fira Code</li>
+  <li>Fontes Proggy</li>
+  <li>DejaVu Sans Mono</li>
+  <li>Source Code Pro</li>
+  <li>Dina</li>
+  <li>Teminus</li>
+  <li>Input</li>
+  <li>Hack</li>
+  <li>Cascadia Code</li>
+  <li>JetBrains Mono</li>
+  <li>Amonymous Pro</li>
+</ol>
+
+### Sugestões de Temas
+
+<ol>
+  <li>Night Owl</li>
+  <li>Drácula</li>
+  <li>One Dark Pro</li>
+  <li>Rainglow</li>
+  <li>Noctis</li>
+  <li>One Monokai Theme</li>
+  <li>Shades of Purple</li>
+  <li>Winter is Coming</li>
+  <li>Material Light</li>
+  <li>SynthWave ’84</li>
+  <li>Monokai Pro</li>
+</ol>
+
+### Previews de Temas
+
+| Tema                   | Preview                                                                                                                                               |
+|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Night Owl              | [Preview](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)                                                                        |
+| Dracula Official       | [Preview](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)                                                            |
+| One Dark Pro           | [Preview](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)                                                            |
+| Rainglow               | [Preview](https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow)                                                                     |
+| Noctis                 | [Preview](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis)                                                                     |
+| One Monokai Theme      | [Preview](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)                                                                     |
+| Shades of Purple       | [Preview](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple)                                                            |
+| Winter is Coming       | [Preview](https://marketplace.visualstudio.com/items?itemName=johnpapa.winteriscoming)                                                                |
+| SynthWave ’84          | [Preview](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode)                                                              |
+| Monokai Pro            | [Preview](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode)                                                       |
 
 ### Contribuição
 
